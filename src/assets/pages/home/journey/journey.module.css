@@ -1,0 +1,36 @@
+.journey__header {
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.journey__header .icon {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.journey__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 2px dashed #262626;
+}
+.journey__list_item {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+.journey__list_item h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.journey__list_item:nth-child(2){
+    border-left: 2px dashed #262626;
+     border-right: 2px dashed #262626;
+}
+.journey__list_item:nth-child(4){
+    border-left: 2px dashed #262626;
+}

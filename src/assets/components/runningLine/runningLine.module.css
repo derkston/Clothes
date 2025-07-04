@@ -1,0 +1,45 @@
+.running_line {
+    width: 100%;
+    border-top: 2px dashed #262626;
+    border-bottom: 2px dashed #262626;
+    padding: 60px 0px;
+    margin: 100px 0px;
+    overflow: hidden;
+}
+.running_line_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    width: 100%;
+    overflow: hidden;
+    animation : runText 20s linear infinite;
+    
+}
+.running_line__item {
+    color: #333333;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  
+}
+@keyframes runText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+    
+}
+.running_line__item:after {
+    content: url('./icon.svg');
+    width: 60px;
+    height: 60px;
+}

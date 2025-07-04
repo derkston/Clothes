@@ -1,0 +1,21 @@
+.faq__list {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.faq__list_item {
+    padding: 60px;
+    border: 2px dashed #262626;
+    animation: show 2.5s ease-in-out; 
+}
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.faq__list_item h3 {
+    margin-bottom: 10px;
+}

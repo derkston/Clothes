@@ -1,0 +1,14 @@
+
+.reviews__header {
+    padding: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.reviews__header h2 {
+    margin-bottom: 1rem;
+}
+.reviews__header .icon {
+ position: absolute;
+ top: 0;
+ right: 0;
+}

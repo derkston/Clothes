@@ -1,0 +1,50 @@
+.catalog {
+    overflow: hidden;
+}
+.catalog__header {
+    padding: 80px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.catalog__header h2 {
+    margin-bottom: 1rem;
+}
+.catalog__header .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.catalog__list {
+  max-width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.catalog__item{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #B3B3B2;
+  padding: 1rem 1.4rem;
+  border: 2px dashed #262626;
+  border-radius: 12px;
+  transition: all .5s ease-in;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.catalog__item:hover {
+  border: 2px solid white;
+  color: white;
+}
+.catalog__item.active {
+  background-color: #C2B4A3;
+  color: black;
+  border: none;
+}

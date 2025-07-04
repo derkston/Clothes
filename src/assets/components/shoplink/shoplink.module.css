@@ -1,0 +1,7 @@
+.link {
+    background-color: #1A1A1A;
+    color: white;
+    border: 2px solid #AE9B84;
+    position: relative;
+    z-index: 2;
+}

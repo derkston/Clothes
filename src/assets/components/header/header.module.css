@@ -1,0 +1,38 @@
+
+.navigation {
+    padding: 1.8rem 0px;
+    border-bottom: 2px dashed #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation_left , .navigation_right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+a.basket {
+    background-color: #262626;
+    padding: 1rem;
+    border: 2px solid #262626;
+    width: 60px;
+    height: 60px;
+    transition: all .5s ease-in;
+}
+.basket:hover {
+     border: 1px solid white;
+}
+.basket img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+a.contact__link {
+    color: #0F0F0F;
+    background-color: #AE9B84;
+    border: 2px solid #AE9B84;
+    transition: all .5s ease-in;
+}
+a.contact__link:hover {
+    border: 2px solid white;
+    color: #0F0F0F;
+}

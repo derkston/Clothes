@@ -1,0 +1,27 @@
+.to_products {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+    background-color: #C2B4A3;
+    border-radius: 20px;
+}
+.to_products__text {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: #0F0F0F;
+}
+.to_products__text p {
+     color: #0F0F0F;
+}
+.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+}

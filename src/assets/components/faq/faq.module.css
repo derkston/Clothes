@@ -1,0 +1,29 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    
+}
+.faq__header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding: 80px;
+}
+.faq__header_text {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon {
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.faq__filter {
+    display: flex;
+    gap: 30px;
+}
